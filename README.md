@@ -1,6 +1,6 @@
 # 📊 Task_04_Descriptive_Stats
 
-This repository contains descriptive statistics analysis on social media data from the **Truth Social 2024 Election Dataset**. The goal of this task is to **replicate identical summary results** using three distinct approaches:
+This repository contains descriptive statistics analysis on political social media data from the 2024 U.S. Presidential campaign. The goal of this task is to **replicate identical summary results** using three distinct approaches:
 
 - ✅ Pure Python (no external libraries)
 - ✅ Pandas (popular DataFrame library)
@@ -10,13 +10,20 @@ This repository contains descriptive statistics analysis on social media data fr
 
 ## 📁 Contents
 
-- `pure_python_stats.py` / `.ipynb`: Descriptive stats using only built-in Python
-- `pandas_stats.py` / `.ipynb`: Analysis using Pandas
-- `polars_stats.py` / `.ipynb`: Analysis using Polars
-- `README.md`: This file
+- `pure_python_stats.py` / `.ipynb`: Descriptive stats using only built-in Python  
+- `pandas_stats.py` / `.ipynb`: Analysis using Pandas  
+- `polars_stats.py` / `.ipynb`: Analysis using Polars  
+- `README.md`: This file  
 
-📎 Dataset Source (not included in repo):
-> [Trump Truths Dataset on Kaggle](https://www.kaggle.com/datasets/andradaolteanu/trump-truths)
+---
+
+## 📥 Dataset Source
+
+The dataset used for this analysis was downloaded from:
+
+**🔗 [Trump 2024 Campaign TruthSocial Truths Tweets - Kaggle](https://www.kaggle.com/datasets/muhammetakkurt/trump-2024-campaign-truthsocial-truths-tweets)**
+
+> ⚠️ **Note:** The dataset file is not included in the GitHub repository. Please download it directly from the source if you wish to replicate the results.
 
 ---
 
@@ -42,7 +49,7 @@ python polars_stats.py
 python pure_python_stats.py
 ```
 
-> 🔁 Make sure to **update the file paths** in scripts to match your local machine. Dataset files are not included in this repo.
+> 🔁 Make sure to **update the file paths** in scripts to match your local machine.
 
 ---
 
@@ -50,18 +57,18 @@ python pure_python_stats.py
 
 | Approach       | Time Taken | Notes |
 |----------------|------------|-------|
-| **Polars**     | 8.84 sec   | 🚀 Fastest |
-| **Pure Python**| 17.00 sec  | 📚 Manual coding |
-| **Pandas**     | 23.00 sec  | 🐼 Most user-friendly |
+| **Pure Python**| 0.09 sec   | 📚 Manual coding |
+| **Polars**     | 0.12 sec   | 🚀 Fastest |
+| **Pandas**     | 0.15 sec   | 🐼 Most user-friendly |
 
 ---
 
 ## 🧠 Key Insights
 
-- All approaches produced **consistent statistics** across columns in the Trump Truth Social dataset.
-- Pandas provides high usability and rapid development.
-- Polars delivers exceptional performance, especially on larger datasets.
-- Pure Python enables a deeper understanding of core logic and statistics computation.
+- All approaches produced **identical results** for shared columns.
+- Pandas is ideal for ease and readability.
+- Polars is optimal for large-scale, high-speed computation.
+- Pure Python reinforces foundational logic but is less scalable.
 
 ---
 
@@ -71,4 +78,4 @@ This task emphasized how **different tools impact coding efficiency, speed, and 
 
 - **Start with Pandas** for flexibility and community support.
 - **Transition to Polars** for performance scaling.
-- Use **Pure Python** to deepen algorithmic thinking or when avoiding dependencies.
+- Use **Pure Python** for learning purposes or lightweight environments.

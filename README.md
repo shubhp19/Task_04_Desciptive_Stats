@@ -63,3 +63,9 @@ Transition to Polars for performance scaling.
 
 Use Pure Python only for learning or constraints with dependencies.
 
+
+
+Transition to Polars for performance scaling.
+
+Use Pure Python only for learning or constraints with dependencies.
+

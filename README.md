@@ -1,6 +1,6 @@
 # 📊 Task_04_Descriptive_Stats
 
-This repository contains descriptive statistics analysis on political social media data from the 2024 U.S. Presidential campaign. The goal of this task is to **replicate identical summary results** using three distinct approaches:
+This repository contains descriptive statistics analysis on social media data from the **Truth Social 2024 Election Dataset**. The goal of this task is to **replicate identical summary results** using three distinct approaches:
 
 - ✅ Pure Python (no external libraries)
 - ✅ Pandas (popular DataFrame library)
@@ -14,6 +14,9 @@ This repository contains descriptive statistics analysis on political social med
 - `pandas_stats.py` / `.ipynb`: Analysis using Pandas
 - `polars_stats.py` / `.ipynb`: Analysis using Polars
 - `README.md`: This file
+
+📎 Dataset Source (not included in repo):
+> [Trump Truths Dataset on Kaggle](https://www.kaggle.com/datasets/andradaolteanu/trump-truths)
 
 ---
 
@@ -55,10 +58,10 @@ python pure_python_stats.py
 
 ## 🧠 Key Insights
 
-- All approaches produced **identical results** for shared columns across Facebook Ads, Facebook Posts, and Twitter Posts datasets.
-- Pandas is ideal for ease and readability.
-- Polars is optimal for large-scale, high-speed computation.
-- Pure Python reinforces foundational logic but is less scalable.
+- All approaches produced **consistent statistics** across columns in the Trump Truth Social dataset.
+- Pandas provides high usability and rapid development.
+- Polars delivers exceptional performance, especially on larger datasets.
+- Pure Python enables a deeper understanding of core logic and statistics computation.
 
 ---
 
@@ -68,4 +71,4 @@ This task emphasized how **different tools impact coding efficiency, speed, and 
 
 - **Start with Pandas** for flexibility and community support.
 - **Transition to Polars** for performance scaling.
-- Use **Pure Python** only for learning or constraints with dependencies.
+- Use **Pure Python** to deepen algorithmic thinking or when avoiding dependencies.
